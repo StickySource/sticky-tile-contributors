@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>net.stickycode.parent</groupId>
+    <artifactId>sticky-parent-tile</artifactId>
+    <version>2.2</version>
+  </parent>
+
+  <groupId>net.stickycode.tile</groupId>
+  <artifactId>sticky-tile-contributors</artifactId>
+  <version>1.1-SNAPSHOT</version>
+
+  <packaging>tile</packaging>
+  <name>${project.artifactId}-1</name>
+  <description>Contributor list as a mixin</description>
+  <url>https://github.com/StickySource/tile</url>
+
+  <scm>
+    <developerConnection>${git.url}</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <contributors>
+    <contributor>
+      <url>https://github.com/aclifford85</url>
+      <email></email>
+      <name>Andrew Clifford</name>
+    </contributor>
+    <contributor>
+      <url>https://github.com/rvowles</url>
+      <organization>BlueTrainSoftware</organization>
+      <organizationUrl>http://www.bluetrainsoftware.com</organizationUrl>
+      <name>Richard Vowles</name>
+      <email>Richard@BlueTrainSoftware.com</email>
+    </contributor>
+  </contributors>
+</project>
