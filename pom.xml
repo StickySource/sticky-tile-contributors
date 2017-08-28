@@ -11,7 +11,7 @@
 
   <groupId>net.stickycode.tile</groupId>
   <artifactId>sticky-tile-contributors</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
 
   <packaging>tile</packaging>
   <name>${project.artifactId}-1</name>
@@ -20,13 +20,13 @@
 
   <scm>
     <developerConnection>${git.url}</developerConnection>
-    <tag>HEAD</tag>
+    <tag>sticky-tile-contributors-1.1</tag>
   </scm>
 
   <contributors>
     <contributor>
       <url>https://github.com/aclifford85</url>
-      <email></email>
+      <email />
       <name>Andrew Clifford</name>
     </contributor>
     <contributor>
